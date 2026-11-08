@@ -18,3 +18,7 @@ __pycache__/
 .DS_Store
 *.swp
 *~
+
+# 固件本地凭据（含明文 Wi-Fi 密码，绝不可入库）
+# 只提交 wifi_credentials.h.example 模板
+wifi_credentials.h

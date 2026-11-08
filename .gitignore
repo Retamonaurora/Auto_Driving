@@ -1,0 +1,20 @@
+# ROS 2 构建产物（由 colcon build 生成，不入库）
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+
+# 编辑器 / IDE（.vscode 里含 1GB 的 browse.vc.db 索引，绝不入库）
+.vscode/
+.idea/
+
+# 系统杂物
+.DS_Store
+*.swp
+*~
